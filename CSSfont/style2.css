@@ -133,7 +133,61 @@ div {
 	background-color: white;
 	top: 450px;
 	left: 70px;
+
 	
+}
+
+.g1 {
+	width: 250px;
+	height: 261px; 
+	background-color: blue;
+	top: 313.3px;
+	left: 282px;
+	border-radius: 50%;
+}
+
+.g2 {
+	width: 110px;
+	height: 58px; 
+	background-color: white;
+	top: 359px;
+	left: 380px;
+	border-radius: 50%;
+}
+
+.g3 {
+	width: 104.5px;
+	height: 61px; 
+	background-color: white;
+	top: 455px;
+	left: 376px;
+	border-radius: 50%;
+}
+
+.g4 {
+	width: 51px;
+	height: 51px;
+	border-radius: 50%;
+	background-color: white;
+	top: 408px;
+	left: 340px;
+}
+
+.g5 {
+	width: 167px;
+	height: 28px;
+	background-color: white;
+	top: 389px;
+	left: 380px;
+
+}
+
+.g6 {
+	width: 104px;
+	height: 34px;
+	background-color: white;
+	top: 450px;
+	left: 376px;
 }
 
 .e1 {
@@ -222,6 +276,24 @@ div {
 	left: 360px;
 }
 
+.title {
+	font-family: Helvetica; 
+	font-size: 50px;
+	top: 50px;
+	left: 600px;
+	font-weight: bold;
+	 
+}
+
+.description {
+	font-family: Helvetica;
+	font-size: 20px; 
+	top: 150px;
+	left: 600px;
+	width: 300px;
+	max-width: 600px;
+
+}
 
 
 
