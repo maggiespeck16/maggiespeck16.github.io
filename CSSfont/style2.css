@@ -287,11 +287,13 @@ div {
 
 .description {
 	font-family: Helvetica;
-	font-size: 20px; 
-	top: 150px;
+	font-size: 22px; 
+	top: 100px;
 	left: 600px;
 	width: 300px;
-	max-width: 600px;
+	max-width: 300px;
+	line-height: 100px;
+	text-align: left;
 
 }
 
