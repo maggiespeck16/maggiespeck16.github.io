@@ -68,6 +68,7 @@ iframe {
 	overflow: scroll;
 	height: 70%;
 	min-width: 1000px;
+	background-color: transparent; 
 
 }
 
