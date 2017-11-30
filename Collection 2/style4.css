@@ -1,0 +1,203 @@
+html, body {
+	height: 4000px;
+}
+
+
+.title {
+	font-family: 'Lobster Two';
+	font-size: 50px; 
+	position: absolute;
+	top: 50px;
+    left: 250px;
+    min-width: 1000px;
+}
+
+.lights {
+	position: absolute;
+	left: 300px; 
+	top: 70px;
+}
+
+.numbers {
+	position: absolute;
+	top: 200px;
+	left: 600px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.things {
+	position: absolute;
+	top: 200px;
+	left: 650px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.pic {
+	position: absolute;
+	top: 250px;
+	left: 470px; 
+	padding-bottom: 50px; 
+	width: 500px;
+	}
+
+.description { 
+	position: absolute;
+	top: 820px;
+	left: 430px;
+	bottom: 50px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+ } 
+
+
+.numbers2 {
+	position: absolute;
+	top: 950px;
+	left: 650px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.things2 {
+	position: absolute;
+	top: 950px;
+	left: 700px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.pic2 {
+	position: absolute;
+	top: 1050px;
+	left: 500px; 
+	bottom: 50px; 
+	width: 500px;
+	
+}
+
+.description2 { 
+	position: absolute;
+	top: 1850px;
+	left: 480px;
+	bottom: 50px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+ }
+
+ .numbers3 {
+	position: absolute;
+	top: 2000px;
+	left: 650px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.things3 {
+	position: absolute;
+	top: 2000px;
+	left: 700px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.pic3 {
+	position: absolute;
+	top: 2100px;
+	left: 500px; 
+	bottom: 50px; 
+	width: 500px;
+	
+}
+
+.description3 { 
+	position: absolute;
+	top: 2700px;
+	left: 580px;
+	bottom: 50px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+ }
+
+ .numbers4 {
+	position: absolute;
+	top: 2850px;
+	left: 600px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.things4 {
+	position: absolute;
+	top: 2850px;
+	left: 650px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.pic4 {
+	position: absolute;
+	top: 2950px;
+	left: 500px; 
+	bottom: 50px; 
+	width: 500px;
+	
+}
+
+.description4 { 
+	position: absolute;
+	top: 3550px;
+	left: 500px;
+	bottom: 50px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+ }
+
+ .home {
+ 	position: absolute;
+ 	left: 650px;
+ 	background-color: green;
+ 	width: 200px;
+ 	height: 20px;
+ 	top: 3890px; 
+ 	border-radius: 32px;
+ 	font-family: 'Roboto';
+ 	text-align: center;
+ 	size: 20px;
+ 	text-decoration-color: white;
+ }
+
+ .home:hover {
+ 	width: 200px;
+ 	height: 20px;
+ 	background-color: rgb(220, 20, 20);
+ }
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: green;
+}
+
+.back {
+	color: white;
+}
+
+.back:hover {
+	color: black;
+}

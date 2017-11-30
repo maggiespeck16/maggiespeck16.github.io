@@ -1,0 +1,168 @@
+html, body {
+	height: 4000px;
+}
+
+
+.title {
+	font-family: 'Lobster Two';
+	font-size: 50px; 
+	position: absolute;
+	top: 50px;
+    left: 350px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.lights {
+	position: absolute;
+	left: 350px; 
+	top: 140px;
+	
+}
+
+.numbers {
+	position: absolute;
+	top: 290px;
+	left: 620px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.things {
+	position: absolute;
+	top: 290px;
+	left: 670px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.pic {
+	position: absolute;
+	top: 310px;
+	left: 500px; 
+	padding-bottom: 50px; 
+	width: 500px;
+	
+}
+
+.description { 
+	position: absolute;
+	top: 1050px;
+	left: 450px;
+	bottom: 50px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+ }
+
+ .numbers2 {
+	position: absolute;
+	top: 1150px;
+	left: 650px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.things2 {
+	position: absolute;
+	top: 1150px;
+	left: 700px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.pic2 {
+	position: absolute;
+	top: 1250px;
+	left: 500px; 
+	bottom: 50px; 
+	width: 500px;
+	
+}
+
+.description2 { 
+	position: absolute;
+	top: 1800px;
+	left: 600px;
+	bottom: 50px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+ }
+
+ .numbers3 {
+	position: absolute;
+	top: 1900px;
+	left: 630px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.things3 {
+	position: absolute;
+	top: 1900px;
+	left: 690px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.pic3 {
+	position: absolute;
+	top: 2000px;
+	left: 500px; 
+	bottom: 50px; 
+	width: 500px;
+	
+}
+
+.description3 { 
+	position: absolute;
+	top: 2600px;
+	left: 640px;
+	bottom: 50px;
+	font-family: 'Roboto';
+	font-size: 20px; 
+	font-weight: bold;
+ }
+
+ .home {
+ 	position: absolute;
+ 	left: 650px;
+ 	background-color: green;
+ 	width: 200px;
+ 	height: 20px;
+ 	top: 3890px; 
+ 	border-radius: 32px;
+ 	font-family: 'Roboto';
+ 	text-align: center;
+ 	size: 20px;
+ 	text-decoration-color: white;
+ }
+
+ .home:hover {
+ 	width: 200px;
+ 	height: 20px;
+ 	background-color: rgb(220, 20, 20);
+ }
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: green;
+}
+
+.back {
+	color: white;
+}
+
+.back:hover {
+	color: black;
+}
