@@ -1,0 +1,195 @@
+.title {
+	font-family: 'Lobster Two';
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    font-size: 100px; 
+    font-weight: bold;
+    color: crimson; 
+    min-width: 1000px;
+
+}
+
+.text {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.lights {
+	position: absolute;
+}
+
+.xmas {
+	position: absolute;
+	width: 400px;
+	height: 200px; 
+	top: 320px; 
+	left: 100px; 
+}
+
+.xmas2 {
+	position: absolute;
+	background-color: crimson;
+	width: 400px;
+	height: 60px; 
+	top: 570px; 
+	left: 100px; 
+	bottom: 50px; 
+} 
+
+.xmastxt {
+	position: absolute;
+	font-family: 'Roboto';
+	font-size: 17px; 
+	top: 590px;
+	left: 160px;
+}
+
+img {
+	width: 400px;
+	height: 250px; 
+}
+
+.basic {
+	position: absolute;
+	width: 400px;
+	height: 200px; 
+	top: 320px; 
+	left: 550px; 
+}
+
+.basic2 {
+	position: absolute;
+	background-color: crimson;
+	width: 400px;
+	height: 60px; 
+	top: 570px; 
+	left: 550px; 
+	bottom: 50px; 
+} 
+
+.basictxt {
+	position: absolute;
+	font-family: 'Roboto';
+	font-size: 17px; 
+	top: 590px;
+	left: 630px;
+	min-width: 1000px;
+}
+
+.bf{
+	position: absolute;
+	width: 400px;
+	height: 200px; 
+	top: 320px; 
+	left: 1000px; 
+}
+
+.bf2 {
+	position: absolute;
+	background-color: crimson;
+	width: 400px;
+	height: 60px; 
+	top: 570px; 
+	left:1000px; 
+	bottom: 50px; 
+} 
+
+.bftxt {
+	position: absolute;
+	font-family: 'Roboto';
+	font-size: 17px; 
+	top: 590px;
+	left: 1060px;
+	min-width: 1000px;
+}
+
+.work{
+	position: absolute;
+	width: 400px;
+	height: 200px; 
+	top: 670px; 
+	left: 100px; 
+}
+
+.work2 {
+	position: absolute;
+	background-color: crimson;
+	width: 400px;
+	height: 60px; 
+	top: 920px; 
+	left: 100px; 
+	bottom: 100px; 
+
+} 
+
+.worktxt {
+	position: absolute;
+	font-family: 'Roboto';
+	font-size: 17px; 
+	top: 930px;
+	left: 140px;
+	max-width: 310px;
+	bottom: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+
+}
+
+a {
+	color: white; 
+}
+
+.college {
+	position: absolute;
+	width: 400px;
+	height: 200px; 
+	top: 670px; 
+	left: 550px; 
+}
+
+.college2 {
+	position: absolute;
+	background-color: crimson;
+	width: 400px;
+	height: 60px; 
+	top: 920px; 
+	left: 550px; 
+	bottom: 50px; 
+} 
+
+.collegetxt {
+	position: absolute;
+	font-family: 'Roboto';
+	font-size: 17px; 
+	top: 940px;
+	left: 630px;
+	min-width: 1000px;
+}
+
+.mom{
+	position: absolute;
+	width: 400px;
+	height: 200px; 
+	top: 670px; 
+	left: 1000px; 
+}
+
+.mom2 {
+	position: absolute;
+	background-color: crimson;
+	width: 400px;
+	height: 60px; 
+	top: 920px; 
+	left:1000px; 
+	bottom: 50px; 
+} 
+
+.momtxt {
+	position: absolute;
+	font-family: 'Roboto';
+	font-size: 17px; 
+	top: 940px;
+	left: 1015px;
+	min-width: 1000px;
+}
