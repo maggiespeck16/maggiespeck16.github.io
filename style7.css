@@ -6,13 +6,13 @@ html, body {
 	font-size: 50px; 
 	position: absolute;
 	top: 50px;
-    left: 200px;
+    left: 300px;
     min-width: 1000px;
 }
 
 .lights {
 	position: absolute;
-	left: 300px; 
+	left: 310px; 
 	top: 70px;
 }
 
@@ -28,9 +28,9 @@ html, body {
 .pic {
 	position: absolute;
 	top: 270px;
-	left: 350px; 
+	left: 330px; 
 	padding-bottom: 50px; 
-	width: 350px;
+	width: 300px;
 	
 }
 
@@ -47,7 +47,7 @@ html, body {
 
 .things2 {
 	position: absolute;
-	top: 900px;
+	top: 930px;
 	left: 350px;
 	font-family: 'Lobster Two';
 	font-size: 40px; 
@@ -57,17 +57,16 @@ html, body {
 
 .pic2 {
 	position: absolute;
-	top: 970px;
+	top: 1050px;
 	left: 350px; 
 	bottom: 50px; 
-	width: 350px;
-	height: 400px;
+	width: 300px;
 	
 }
 
 .description2 { 
 	position: absolute;
-	top: 1400px;
+	top: 1500px;
 	left: 350px;
 	bottom: 50px;
 	font-family: 'Roboto';
@@ -83,16 +82,15 @@ html, body {
 	font-family: 'Lobster Two';
 	font-size: 40px; 
 	font-weight: bold;
-
+	max-width: 250px;
 }
 
 .pic3 {
 	position: absolute;
-	top: 270px;
+	top: 350px;
 	left: 850px; 
 	bottom: 50px; 
 	width: 350px;
-	height: 450px;
 	
 }
 
@@ -108,7 +106,7 @@ html, body {
 
 .things4 {
 	position: absolute;
-	top: 900px;
+	top: 930px;
 	left: 850px;
 	font-family: 'Lobster Two';
 	font-size: 40px; 
@@ -117,17 +115,17 @@ html, body {
 
 .pic4 {
 	position: absolute;
-	top: 970px;
+	top: 1000px;
 	left: 850px; 
 	bottom: 50px; 
 	width: 350px;
-	height: 450px;
+	
 	
 }
 
 .description4 { 
 	position: absolute;
-	top: 1400px;
+	top: 1500px;
 	left: 850px;
 	font-family: 'Roboto';
 	font-size: 20px; 
@@ -156,6 +154,14 @@ html, body {
  	background-color: rgb(220, 20, 20);
  }
 
+ .gif {
+ 	position: absolute;
+ 	top: 1700px;
+ 	width: 350px;
+ 	height: 200px;
+ 	left: 575px;
+ }
+
 a {
 	color: black;
 }
@@ -171,14 +177,3 @@ a:hover {
 .back:hover {
 	color: black;
 }
-
-.gif {
- 	position: absolute;
- 	top: 1700px;
- 	width: 350px;
- 	height: 200px;
- 	left: 575px;
- }
-
-
-
