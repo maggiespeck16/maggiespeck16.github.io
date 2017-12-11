@@ -1,7 +1,6 @@
 html, body {
-	height: 4000px;
+	width: 1400px;
 }
-
 .title {
 	font-family: 'Lobster Two';
 	font-size: 50px; 
@@ -17,148 +16,117 @@ html, body {
 	top: 70px;
 }
 
-.numbers {
-	position: absolute;
-	top: 200px;
-	left: 600px;
-	font-family: 'Roboto';
-	font-size: 20px; 
-	font-weight: bold;
-}
-
 .things {
 	position: absolute;
 	top: 200px;
-	left: 650px;
-	font-family: 'Roboto';
-	font-size: 20px; 
+	left: 350px;
+	font-family: 'Lobster Two';
+	font-size: 40px; 
 	font-weight: bold;
 }
 
 .pic {
 	position: absolute;
-	top: 250px;
-	left: 500px; 
+	top: 270px;
+	left: 300px; 
 	padding-bottom: 50px; 
-	width: 500px;
+	width: 300px;
 	
 }
 
 .description { 
 	position: absolute;
-	top: 1050px;
-	left: 570px;
+	top: 750px;
+	left: 350px;
 	bottom: 50px;
 	font-family: 'Roboto';
 	font-size: 20px; 
 	font-weight: bold;
  }
 
- .numbers2 {
-	position: absolute;
-	top: 1150px;
-	left: 550px;
-	font-family: 'Roboto';
-	font-size: 20px; 
-	font-weight: bold;
-}
 
 .things2 {
 	position: absolute;
-	top: 1150px;
-	left: 600px;
-	font-family: 'Roboto';
-	font-size: 20px; 
+	top: 900px;
+	left: 350px;
+	font-family: 'Lobster Two';
+	font-size: 40px; 
 	font-weight: bold;
+	max-width: 300px;
 }
 
 .pic2 {
 	position: absolute;
-	top: 1200px;
-	left: 500px; 
+	top: 1020px;
+	left: 350px; 
 	bottom: 50px; 
-	width: 500px;
+	width: 300px;
 	
 }
 
 .description2 { 
 	position: absolute;
-	top: 2000px;
-	left: 550px;
+	top: 1500px;
+	left: 350px;
 	bottom: 50px;
 	font-family: 'Roboto';
 	font-size: 20px; 
 	font-weight: bold;
  }
 
-  .numbers3 {
-	position: absolute;
-	top: 2100px;
-	left: 600px;
-	font-family: 'Roboto';
-	font-size: 20px; 
-	font-weight: bold;
-}
 
 .things3 {
 	position: absolute;
-	top: 2100px;
-	left: 650px;
-	font-family: 'Roboto';
-	font-size: 20px; 
+	top: 200px;
+	left: 850px;
+	font-family: 'Lobster Two';
+	font-size: 40px; 
 	font-weight: bold;
+	max-width: 250px;
 }
 
 .pic3 {
 	position: absolute;
-	top: 2150px;
-	left: 500px; 
+	top: 270px;
+	left: 850px; 
 	bottom: 50px; 
-	width: 500px;
+	width: 300px;
 	
 }
 
 .description3 { 
 	position: absolute;
-	top: 2950px;
-	left: 530px;
+	top: 750px;
+	left: 850px;
 	bottom: 50px;
 	font-family: 'Roboto';
 	font-size: 20px; 
 	font-weight: bold;
  }
 
-  .numbers4 {
-	position: absolute;
-	top: 3050px;
-	left: 650px;
-	font-family: 'Roboto';
-	font-size: 20px; 
-	font-weight: bold;
-}
-
 .things4 {
 	position: absolute;
-	top: 3050px;
-	left: 700px;
-	font-family: 'Roboto';
-	font-size: 20px; 
+	top: 930px;
+	left: 850px;
+	font-family: 'Lobster Two';
+	font-size: 40px; 
 	font-weight: bold;
 }
 
 .pic4 {
 	position: absolute;
-	top: 3100px;
-	left: 500px; 
+	top: 1020px;
+	left: 850px; 
 	bottom: 50px; 
-	width: 500px;
+	width: 300px;
+	height: 450px;
 	
 }
 
 .description4 { 
 	position: absolute;
-	top: 3800px;
-	left: 450px;
+	top: 1500px;
+	left: 850px;
 	font-family: 'Roboto';
 	font-size: 20px; 
 	font-weight: bold;
@@ -171,7 +139,8 @@ html, body {
  	background-color: green;
  	width: 200px;
  	height: 20px;
- 	top: 3890px; 
+ 	top: 1800px; 
+ 	bottom: 50px;
  	border-radius: 32px;
  	font-family: 'Roboto';
  	text-align: center;
@@ -200,6 +169,16 @@ a:hover {
 .back:hover {
 	color: black;
 }
+
+
+.gif {
+ 	position: absolute;
+ 	top: 1700px;
+ 	width: 350px;
+ 	height: 200px;
+ 	left: 575px;
+ }
+
 
 
 
