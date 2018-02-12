@@ -1,0 +1,509 @@
+div{
+	position: absolute;
+}
+
+.text{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+
+.squares{
+	width: 100vw;
+	height: 100vh;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+
+.josef{
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 90px;
+	top: 5px;
+	left: 290px;
+	font-weight: bolder;
+}
+
+.albers{
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 90px;
+	top: 110px;
+	left: 410px;
+	font-weight: bolder;
+}
+
+.in {
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 50px;
+	top: 300px;
+	left: 150px;
+	font-weight: normal;
+}
+
+.Mexico{
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 55px;
+	top: 350px;
+	left: 150px;
+	font-weight: normal;
+}
+
+.gug {
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 28px;
+	bottom: 70px;
+	left: 730px;
+	font-weight: normal;
+	min-width: 2000px;
+}
+
+.dates {
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 25px;
+	bottom: 35px;
+	left: 730px;
+	font-weight: normal;
+	min-width: 2000px;
+}
+
+.tickets {
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 20px;
+	bottom: 5px;
+	left: 730px;
+	color: black;
+
+}
+
+.one{
+	background-color: rgb(175,43,57);
+	height: 80px;
+	width: 80px;
+	top: 50px;
+	left: 150px;
+}
+
+.two{
+	background-color: rgb(255,116,77);
+	height: 120px;
+	width: 120px;
+	top: 180px;
+	left: 710px;
+}
+
+.three{
+	background-color: rgb(255,51,51);
+	height: 80px;
+	width: 80px;
+	top: 310px;
+	left: 230px;
+}
+
+.four{
+	background-color: rgb(210,10,50);
+	height: 100px;
+	width: 100px;
+	top: 355px;
+	left: 20px;
+}
+
+.five{
+	background-color: rgb(255,80,80);
+	height: 200px;
+	width: 200px;
+	top: 490px;
+	left: 500px;
+}
+
+.six{
+	background-color: rgb(255,20,80);
+	height: 60px;
+	width: 60px;
+	top: 410px;
+	left: 1100px;
+}
+
+.seven{
+	background-color: rgb(255,20,20);
+	height: 40px;
+	width: 40px;
+	top: 20px;
+	left: 1000px;
+}
+
+.eight{
+	background-color: rgb(255,42,0);
+	height: 70px;
+	width: 70px;
+	top: 760px;
+	left: 1020px;
+}
+
+.nine {
+	background-color: rgb(225,72,0);
+	height: 50px;
+	width: 50px;
+	top: 1000px;
+	left: 710px;
+}
+
+.ten {
+	background-color: rgb(127,42,36);
+	height: 100px;
+	width: 100px;
+	top: 850px;
+	left: 20px;
+}
+
+.eleven {
+	background-color: rgb(255,80,80);
+	height: 150px;
+	width: 150px;
+	top: 1200px;
+	left: 1000px;
+}
+
+.twelve {
+	background-color: rgb(255,20,80);
+	height: 90px;
+	width: 90px;
+	top: 1300px;
+	left: 600px;
+}
+
+.thirteen {
+	background-color: rgb(229,114,0);
+	height: 200px;
+	width: 200px;
+	top: 1400px;
+	left: 130px;
+	bottom: 50px;
+}
+
+.fourteen {
+	background-color: rgb(127,20,57);
+	height: 70px;
+	width: 70px;
+	top: 2100px;
+	left: 50px;
+}
+
+.fifteen{
+	background-color: rgb(204,10,50);
+	height: 50px;
+	width: 50px;
+	top: 1700px;
+	left: 450px;
+}
+
+.sixteen{
+	background-color: rgb(255,87,0);
+	height: 100px;
+	width: 100px;
+	top: 1800px;
+	left: 1050px;
+}
+
+.seventeen{
+	background-color: rgb(205,107,90);
+	height: 130px;
+	width: 130px;
+	top: 1900px;
+	left: 700px;
+}
+
+.eighteen {
+	background-color: rgb(230, 50, 0);
+	height: 200px;
+	width: 200px;
+	top: 2200px;
+	left: 1000px;
+}
+
+.nineteen {
+	background-color: (255, 132, 103)
+	height: 70px;
+	width: 70px; 
+	top: 2300px;
+	left: 500px;
+}
+
+.twenty{
+	background-color: rgb(175,43,57);
+	height: 80px;
+	width: 80px;
+	top: 2500px;
+	left: 150px;
+}
+
+.twentyone{
+	background-color: rgb(255,116,77);
+	height: 120px;
+	width: 120px;
+	top: 2550px;
+	left: 710px;
+}
+
+.twentytwo{
+	background-color: rgb(255,51,51);
+	height: 80px;
+	width: 80px;
+	top: 2700px;
+	left: 230px;
+}
+
+.twentythree{
+	background-color: rgb(210,10,50);
+	height: 100px;
+	width: 100px;
+	top: 3000px;
+	left: 20px;
+}
+
+.twentysix{
+	background-color: rgb(255,20,20);
+	height: 40px;
+	width: 40px;
+	top: 3030px;
+	left: 950px;
+}
+
+@media(max-width: 650px) {  /* Any window smaller than this px width gets the following CSS rules */
+  /* Rules go here */
+  
+.josef{
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 100px;
+	left: 100px;
+	font-weight: bolder; 
+}
+
+.albers{
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 100px;
+	top: 100px;
+	left: 200px;
+	font-weight: bolder;
+}
+
+.in {
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 50px;
+	top: 300px;
+	left: 100px;
+	font-weight: normal;
+}
+
+.Mexico {
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 50px;
+	top: 350px;
+	left: 100px;
+	font-weight: normal;
+
+}
+
+.gug {
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 30px;
+	bottom: 100px;
+	left: 100px;
+	font-weight: normal;
+	min-width: 2000px;
+}
+
+.dates{
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 30px;
+	bottom: 50px;
+	left: 100px;
+	font-weight: normal;
+	min-width: 2000px;
+
+}
+
+.tickets {
+	position: absolute;
+	font-family: 'Muli', sans-serif;
+	font-size: 70px;
+	top: 1600px; 
+	left: 600px;
+	color: black;
+
+}
+
+.one {
+	background-color: rgb(175, 43, 57);
+	height: 80px;
+	width: 80px;
+	top: 250px;
+	left: 50px;
+
+}
+
+.two{
+	background-color: rgb(255, 116, 77);
+	height: 120px;
+	width: 120px;
+	top: 50px;
+	left: 410px;
+}
+
+.three{
+	background-color: transparent; 
+}
+
+.four {
+	background-color: rgb(210, 10, 50);
+	height: 100px;
+	width: 100px;
+	top: 555px;
+	left: 420px;
+}
+
+.five{
+	background-color: transparent;
+
+}
+.six{
+	background-color: transparent;
+}
+
+.seven {
+	background-color: transparent;
+
+}
+
+.eight{
+	background-color: transparent;
+}
+
+.nine{
+	background-color: transparent;
+}
+
+.ten{
+	background-color: rgb(127, 42, 36);
+	height: 100px;
+	width: 100px; 
+	top: 850px;
+	left: 20px;
+}
+
+.eleven {
+	background-color: transparent;
+}
+
+.twelve{
+	background-color: rgb(255,20,80);
+	height: 200px;
+	width: 200px;
+	top: 1300px;
+	left: 390px;
+}
+
+.thirteen{
+	background-color: rgb(229, 114, 0);
+	height: 90px;
+	width: 90px;
+	top: 1800px;
+	left: 30px;
+	bottom: 50px;
+}
+
+.fourteen{
+	background-color: transparent;
+
+}
+
+.fiveteen{
+	background-color: transparent;
+
+}
+
+.sixteen{
+	background-color: transparent;
+}
+
+.seventeen{
+	background-color: transparent;
+}
+
+.eighteen {
+	background-color: rgb(230, 50, 0);
+	height: 200px;
+	width: 200px; 
+	top: 2000px;
+	left: 440px;
+}
+
+.nineteen{
+	width: 70px;
+	height: 70px;
+	top: 2300px;
+	left: 500px;
+}
+
+.twenty{
+	background-color: rgb(175, 43, 57);
+	height: 100px;
+	width: 100px;
+	top: 2300px;
+	left: 10px;
+}
+
+.twentyone{
+	background-color: rgb(255, 116, 77);
+	height: 220px;
+	width: 220px;
+	top: 2800px;
+	left: 400px;
+}
+
+.twentytwo{
+	top: 2500px;
+	left: 400px;
+}
+
+.twentythree {
+	top: 2800px;
+	height: 50px;
+	width: 50px;
+}
+
+.twentysix {
+	background-color: transparent;
+}
+
+.squares {
+	width: 20vw;
+	height: 20vw;
+}
+
+
+
+
+  h2{
+    font-size: 42px;
+  }
+  
+  h2{
+    display: block;
+  }
+}
