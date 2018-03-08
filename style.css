@@ -6,57 +6,73 @@ background-color: rgb(150, 160, 180);
 .title {
 position: absolute;
 font-family: helvetica, sans-serif; 
-font-size: 150px; 
+font-size: 50px; 
 font-weight: bold;
-top: 50px;
-left: 100px;
-max-width: 200px;
+top: 490px;
+left: 10px;
 color: white;
+
 
 }
 
-
+img{
+	width: 300px;
+	height: 450px;
+	padding-left: 40px;
+}
 .titles {
 font-family: helvetica, sans-serif; 
-font-size: 105px; 
+font-size: 40px; 
 font-weight: bold;
-padding-top: 50px;
-padding-left: 100px;
+padding-left: 20px;
 max-width: 200px;
+min-width: 100px;
 color: white;
+
 }
 
 .paragraph{
 font-family: helvetica, sans-serif; 
-font-size: 14px; 
+font-size: 10px; 
 padding-top: 20px;
-padding-left: 120px;
-max-width: 590px;
+padding-left: 20px;
+max-width: 330px;
 line-height: 25px;
 
 }
 
 .types {
 font-family: helvetica, sans-serif; 
-font-size: 25px; 
+font-size: 14px; 
 font-weight: bold;
-padding-left: 100px;
+padding-left: 20px;
 padding-top: 20px;
 color: white;
 }
 
-.mark{
-position: absolute;
-left: 900px;
-opacity: 0.5;
+
+.wand{
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	width: 94px;
+	height: 136px;
+}
+
+.texture2{
+	width: 100vw;
+	height: 10vh;
+	background-image: url(texture.png);
+	background-size: cover;
+	background-position: center center; 	
 }
 
 .tabs1 {
 	position: absolute;
-	font-size: 20px;
+	font-size: 12px;
 	font-family: helvetica, sans-serif;
 	top: 600px;
-	left: 645px;
+	left: 10px;
 	line-height: 50px;
 	color: rgb(100,100,100);
 
@@ -64,9 +80,9 @@ opacity: 0.5;
 
 .tabs2 {
 	position: absolute;
-	font-size: 20px;
+	font-size: 12px;
 	font-family: helvetica, sans-serif;
-	left: 870px;
+	left: 128px;
 	top: 600px;
 	line-height: 50px;
 
@@ -74,7 +90,18 @@ opacity: 0.5;
 
 .tabs3 {
 	position: absolute;
-	font-size: 20px;
+	font-size: 12px;
+	font-family: helvetica, sans-serif;
+	left: 210px;
+	top: 600px;
+	line-height: 50px;
+	color: rgb(100,100,100);
+
+}
+
+.tabs4 {
+	position: absolute;
+	font-size: 12px;
 	font-family: helvetica, sans-serif;
 	left: 300px;
 	top: 600px;
@@ -84,14 +111,46 @@ opacity: 0.5;
 
 }
 
-.tabs4 {
-	position: absolute;
-	font-size: 20px;
-	font-family: helvetica, sans-serif;
-	left: 100px;
-	top: 600px;
-	line-height: 50px;
-	color: rgb(100,100,100);
-	
+.quotes{
+	font size: 20px;
+	font-family: helvetica;
+	font-weight: bold;
+	line-height: 30px;
+	padding-left: 40px;
+	max-width: 280px;
+}
 
+.back{
+	font size: 20px;
+	font-family: helvetica;
+	font-weight: bold;
+	padding-left: 20px;
+	color: white;
+}
+
+.pics{
+	width: 319.25px;
+	height: 125px;
+	padding-left: 20px;
+	padding-top: 10px;
+
+}
+
+
+
+@media(min-width: 550px) {
+	body {
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+.texture{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(texture.png);
+	background-size: cover;
+ 	
+}
 }
