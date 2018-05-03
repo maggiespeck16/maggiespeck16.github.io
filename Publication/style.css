@@ -2,40 +2,101 @@ body{
 background-color: rgb(150, 160, 180);
 }
 
+a{
+	color: white;
+	text-decoration: none;
+}
 
 .title {
 position: absolute;
-font-family: helvetica, sans-serif; 
-font-size: 50px; 
-font-weight: bold;
-top: 490px;
+font-family: 'Shrikhand', cursive;
+font-size: 80px; 
+top: 450px;
 left: 10px;
 color: white;
+max-width: 500px;
 
 
 }
 
 .index{
-	width: 300px;
-	height: 450px;
-	padding-left: 40px;
+	width: 250px;
+	height: 400px;
+	padding-left: 130px;
 }
 
 .cores{
-	width: 400px;
+	width: 500px;
+	height: 200px;
 }
 
 .wands{
-	width: 400px;
+	width: 450px;
+	height: 250px;
+	padding-left: 20px;
 }
 
 .ollivander{
-	width: 300px;
-	padding-left: 40px;
+	width: 400px;
+	padding-left: 50px;
 }
+
+.wandshop{
+	width: 300px;
+	padding-left: 90px;
+}
+
+.woods{
+	width: 500px;
+
+}
+
+.hpwand{
+	width: 500px;
+	height: 350px;
+}
+
+.bella{
+	width: 250px;
+	height: 250px;
+	padding-left: 100px;
+}
+
+.elder{
+	width: 400px;
+	height: 500px;
+	padding-left: 50px;
+
+}
+
+.vine{
+	padding-left: 50px;
+}
+
+.background{
+	position: absolute;
+	z-index: -1;
+	width: 300px;
+	height: 260px;
+	background-color: rgb(255, 255, 255);
+	top: 2440px;
+	left: 100px;
+}
+
+.background1{
+	position: absolute;
+	z-index: -1;
+	width: 400px;
+	height: 250px;
+	background-color: rgb(255, 255, 255);
+	top: 3090px;
+	left: 60px;
+}
+
+
 .titles {
-font-family: helvetica, sans-serif; 
-font-size: 40px; 
+font-family: 'Raleway', sans-serif;
+font-size: 60px;
 font-weight: bold;
 padding-left: 20px;
 max-width: 200px;
@@ -45,18 +106,19 @@ color: white;
 }
 
 .paragraph{
-font-family: helvetica, sans-serif; 
+font-family: 'Raleway', sans-serif;
 font-size: 12px; 
 padding-top: 20px;
 padding-left: 20px;
-max-width: 330px;
+max-width: 450px;
 line-height: 25px;
 
 }
 
 .types {
-font-family: helvetica, sans-serif; 
-font-size: 14px; 
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 30px; 
 font-weight: bold;
 padding-left: 20px;
 padding-top: 20px;
@@ -80,12 +142,15 @@ color: white;
 	background-position: center center; 	
 }
 
+
 .tabs1 {
 	position: absolute;
-	font-size: 12px;
-	font-family: helvetica, sans-serif;
-	top: 600px;
-	left: 10px;
+	z-index: 1;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	top: 720px;
+	left: 120px;
 	line-height: 50px;
 	color: rgb(100,100,100);
 
@@ -93,20 +158,26 @@ color: white;
 
 .tabs2 {
 	position: absolute;
-	font-size: 12px;
-	font-family: helvetica, sans-serif;
-	left: 128px;
-	top: 600px;
+		z-index: 1;
+
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	left: 160px;
+	top: 820px;
 	line-height: 50px;
 
 }
 
 .tabs3 {
 	position: absolute;
-	font-size: 12px;
-	font-family: helvetica, sans-serif;
-	left: 210px;
-	top: 600px;
+		z-index: 1;
+
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	left: 150px;
+	top: 920px;
 	line-height: 50px;
 	color: rgb(100,100,100);
 
@@ -114,10 +185,14 @@ color: white;
 
 .tabs4 {
 	position: absolute;
-	font-size: 12px;
-	font-family: helvetica, sans-serif;
-	left: 300px;
-	top: 600px;
+		z-index: 1;
+
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	left: 160px;
+	top: 1020px;
+	bottom: 200px;
 	line-height: 50px;
 	color: rgb(100,100,100);
 	
@@ -125,17 +200,17 @@ color: white;
 }
 
 .quotes{
-	font size: 20px;
-	font-family: helvetica;
+	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
-	line-height: 30px;
+	line-height: 50px;
 	padding-left: 40px;
-	max-width: 280px;
+	max-width: 400px;
+	font-size: 40px;
 }
 
 .back{
 	font size: 20px;
-	font-family: helvetica;
+font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	padding-left: 20px;
 	color: white;
@@ -147,6 +222,48 @@ color: white;
 	padding-left: 20px;
 	padding-top: 10px;
 
+}
+
+
+.box1{
+	position: absolute;
+		z-index: -1;
+left: 30px;
+	width: 450px;
+	height: 100px;
+	background-color: rgb(210, 228, 249);
+	top: 700px;
+}
+
+.box2{
+	position: absolute;
+		z-index: -1;
+left: 30px;
+	width: 450px;
+	height: 100px;
+	background-color: rgb(160, 184, 203);
+	top: 800px;
+}
+
+.box3{
+	position: absolute;
+		z-index: -1;
+left: 30px;
+	width: 450px;
+	height: 100px;
+	background-color: rgb(119, 151, 198);
+	top: 900px;
+}
+
+.box4{
+	position: absolute;
+	z-index: -1;
+	width: 450px;
+	height: 100px;
+	background-color: rgb(55, 110, 165);
+	top: 1000px;
+	left: 30px;
+	margin-bottom: 30px;
 }
 
 
